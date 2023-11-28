@@ -5,7 +5,6 @@ include_once('../config.php');
 include_once($base_dir . '/libs/genfuncs.php');
 include_once($base_dir . 'libs/dbfuncs.php');
 import_class('business/agent/CreditManager.php');
-import_class('util/DataCacheService.php');
 import_class('business/banks/ProcessingBankCreditModel.php');
 use remitone\business\transaction\TransactionModel;
 
